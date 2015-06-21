@@ -1,0 +1,18 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Job finder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "frarlon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.0",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1"
+  }
+}

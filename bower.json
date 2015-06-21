@@ -1,0 +1,15 @@
+{
+  "name": "workspace",
+  "version": "0.0.0",
+  "authors": [
+    "Frarlon Rodriguez <fr0609@gmail.com>"
+  ],
+  "description": "Job finding app",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.1",
+    "bootstrap": "~3.3.5"
+  }
+}
