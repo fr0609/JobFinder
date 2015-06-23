@@ -9,10 +9,13 @@
   "author": "frarlon",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^2.9.30",
     "express": "^4.13.0",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "mongoose": "^4.0.5"
   },
   "devDependencies": {
-    "bower": "^1.4.1"
+    "bower": "^1.4.1",
+    "chai": "^3.0.0"
   }
 }
