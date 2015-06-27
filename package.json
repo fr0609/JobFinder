@@ -10,14 +10,18 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^2.9.30",
+    "body-parser": "^1.13.1",
     "express": "^4.13.0",
     "jade": "^1.11.0",
+    "karma-mocha": "^0.2.0",
     "mongoose": "^4.0.5"
   },
   "devDependencies": {
     "bower": "^1.4.1",
     "chai": "^3.0.0",
+    "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^0.2.0",
+    "karma-mocha": "^0.2.0",
     "karma-phantomjs-launcher": "^0.2.0",
     "phantomjs": "^1.9.17",
     "supertest": "^1.0.1"
