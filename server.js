@@ -2,19 +2,12 @@ var express = require("express");
 var jobsData = require("./jobs-data.js");
 var app = express();
 
+require("./jobs-service.js")(jobsData, app);
 
 app.set('views', __dirname);
 app.set('view engine', 'jade');
 
 app.use(express.static(__dirname + '/public'));
-
-
-app.get('/api/jobs', function(req, res) {
-   jobsData.findJobs()
-   .then(function(collection){
-        res.send(collection);    
-    });
-});
 
 
 

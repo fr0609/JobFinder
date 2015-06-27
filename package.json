@@ -16,6 +16,9 @@
   },
   "devDependencies": {
     "bower": "^1.4.1",
-    "chai": "^3.0.0"
+    "chai": "^3.0.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "phantomjs": "^1.9.17"
   }
 }
